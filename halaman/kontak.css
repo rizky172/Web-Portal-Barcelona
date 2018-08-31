@@ -1,0 +1,96 @@
+/*--
+/*--contact--*/
+.contact {
+    padding: 5em 0;
+	    background-color: #f7f7f7;
+}
+.contact-form {
+      margin: 3em 0 0em 0;
+}
+p.your-para {
+  color: #777;
+  font-size: 1em;
+}
+.contact-grid input[type="text"], .contact-grid textarea {
+  width: 100%;
+  padding:0.8em;
+  margin:0.6em 0;
+  background: #fff;
+  outline: none;
+  border: 1px solid #DADADA;
+  -webkit-appearance: none;
+}
+.contact-grid textarea {
+  resize: none;
+  min-height:180px;
+}
+.contact-in h5{
+         color: #AF2D39;
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+p.para1{
+   color: #777;
+  line-height: 1.9em;
+      font-size: 1em;
+}
+.contact-grid {
+  padding-left: 0;
+}
+p.location, p.mail, p.phone {
+  color: #777;
+  font-size: 1em;
+  margin-top: 0.9em;
+}
+p.location i, p.mail i, p.phone i {
+      color: #2A292B;
+  font-size:0.9em;
+  margin: 0 0.5em;
+    vertical-align: middle;
+}
+ p.mail a  {
+ color:#777;
+  font-size: 1em;
+ }
+ p.mail a:hover {
+  color:#AF2D39;
+  text-decoration: none;
+}
+.more-address{
+	padding:1em 0;
+} 
+.send input[type="submit"] {
+  font-size: 1.1em;
+  padding: 0.7em 2.5em;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+    transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+       background: #AF2D39;
+}
+.send input[type="submit"]:hover {
+  background:#33384C;
+}
+.copy {
+   text-align: center;
+      background:#33384C;
+  padding: 1em 1em;
+  }
+.copy p {
+  color: #fff;
+  font-size:0.9em;
+}
+.copy p a {
+       color: #AD2D37;
+}
+.copy p a:hover{
+  text-decoration:underline;
+}

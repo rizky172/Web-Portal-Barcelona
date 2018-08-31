@@ -1,0 +1,622 @@
+.img-galeri{
+  width: 50%;
+  height: 50%;
+}
+.teks-hot{
+  text-align: center;
+  font-family: 'Comic Sans Ms';
+  font-weight: bold;
+  font-size: 50px;
+}
+.teks-berita{
+  text-align: center;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 50px;
+}
+/* CSS Navbar */
+.navbar-perpus {
+    float: left;
+    background-color: red;
+    width: 100%;
+}
+
+.navbar-perpus li{
+    float: left;
+    list-style: none;
+    width: 140px;
+}
+
+.navbar-perpus li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-perpus li a:hover {
+    background-color: blue;
+}
+
+.center-nav ul{
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+
+.bgsocmed-warna{
+  position: relative;
+  min-height: 80px;
+  width: 100%;
+  background-color: rgb(142, 24, 53);
+
+}
+
+
+.bgsocmed {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.uksocmed {
+  font-size: 25px;
+}
+
+.fa {
+  text-align: center;
+  text-decoration: none;
+  margin: 13px 3px;
+  padding: 8px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.posisi-socmed{
+  float: right;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook, .fa-twitter, .fa-google-plus, .fa-youtube, .fa-instagram {
+  color: black;
+  background: white;
+}
+
+.bglogo{
+    float: left;
+    width: 270px;
+    height: 80px;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+.bglogo1{
+  width: 70%;
+  height: 100px;
+}
+.bggaris{
+    background-color: rgb(142, 24, 53);
+    width: 100%;
+    height: 7px;
+    margin-top: -20px;
+}
+
+/* CSS Modal Login */
+
+.btn-login {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.btn-signup {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-top: 15px;
+}
+
+
+/* CSS Footer */
+
+
+
+.bgfooter1 {
+  background-color: rgb(31, 50, 81);
+}
+
+.iklan1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bgfooter2 {
+  background-color: rgb(31, 50, 81);
+}
+
+.sponsor1 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.bgfooter3 {
+  background-color: rgb(203, 206, 211);
+}
+
+.logobawah{
+  margin-top: 15px;
+  margin-left: -50px;
+}
+.karya{
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Times New Roman';
+}
+
+.teksmail{
+  font-family: 'Comic Sans Ms';
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 85px;
+}
+
+.search {
+    margin-top: 10px;
+    background:white;
+    border:0px solid #dbdbdb;
+    border-radius: 3px;
+    color: black;
+    height: 8%;
+    width: 30%;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.button {
+    left:-5px;
+    border:2px;
+    background-color: rgb(142, 24, 53);
+    border-radius: 3px;
+    color:#fafafa;
+    height: 8%;
+    width: 5%;
+}
+
+.button:hover  {
+    background-color: rgb(142, 24, 53, 0.8);
+    color: white;
+}
+
+
+
+
+
+
+/* CSS keren */
+
+#btn-up{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(142, 24, 53);
+  color: white;
+  font-family: 'Arial';
+  font-weight: bold;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+#btn-up:hover {
+  background-color: #555;
+}
+
+
+
+
+/*CSS Halaman Awal */
+  
+/* Slideshow container */
+
+.mySlides {display:none}
+
+.slideshow-container {
+  max-width: 40%;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+/* Caption text */
+.teks-slide {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.active-barca {
+  background-color: #717171;
+}
+
+
+/* Fading animation */
+.fadebarca {
+  -webkit-animation-name: fadebarca;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fadebarca;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadebarca {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fadebarca {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .teks-slide {font-size: 11px}
+}
+
+.overlay-teks {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(150, 150, 150, 0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.teksaaa {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.slideshow-container:hover .overlay-teks {
+  height: 100%;
+
+}
+
+/* CSS Halaman Pemain */
+
+.teks-panel {
+  width: 50%;
+
+}
+
+.tabel-pemain{
+  text-align: center;
+  overflow-x:auto;
+}
+
+.btn-pemain {
+  display: inline-block;
+ 
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 100px;
+  margin-bottom: 10px;
+
+}
+
+.tb-pemain-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.tb-pemain-judul{
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+.tb-pemain th, .tb-pemain td{
+  padding: 5px;
+  width: 200px;
+  font-family: 'Times New Roman';
+  font-size: 17px;
+}
+
+ .tb-club td{
+  padding: 5px;
+  width: 50%;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+}
+
+.tb-club th{
+  padding: 5px;
+  width: 30%;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+}
+
+button.accordion {
+    background-color: rgb(142, 24, 53, 0.9);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-bottom: 30px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: rgb(142, 24, 53, 0.5); 
+}
+
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 20px;
+    color: white;
+    float: left;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+
+
+/* CSS Club */
+
+
+/* CSS Gallery */
+
+div#gallery {
+    padding: 4em 0;
+}
+h3.tittle {
+    color: #33384C;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+}
+.gallery-grids{
+  margin:3em 0 0;
+}
+.baner-bottom img,.baner-top img{
+ width:100%;
+ }
+ 
+.gallery-grids h4 {
+    font-size: 2.1em;
+    color: #fff;
+}
+.gallery-grids figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  width:100%;
+}
+.gallery-grids figure img {
+  position: relative;
+  display: block;
+  width:100%;
+}
+figcaption p {
+    font-size: 1em;
+    width:80%;
+    margin: 0 auto;
+    line-height: 1.8em;
+}
+.baner-row{
+  margin:2em 0;
+}
+.baner-bottom p {
+    width: 87%;
+}
+.gallery-grids figure figcaption {
+  padding: 2em;
+  color: #fff;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.gallery-grids figure figcaption::before,
+.gallery-grids figure figcaption::after {
+  pointer-events: none;
+}
+
+.gallery-grids figure figcaption{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+figure.effect-bubba {
+ background: gray;
+}
+figure.effect-bubba:hover img {
+  opacity: 0.3;
+}
+figure.effect-bubba figcaption::before,
+figure.effect-bubba figcaption::after {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s,-webkit-transform 0.35s;  
+  -moz-transition: opacity 0.35s, -moz-transform 0.35s;
+  -o-transition: opacity 0.35s, -o-transform 0.35s;
+  -ms-transition: opacity 0.35s, -ms-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba figcaption::before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0,1);
+  -moz-transform: scale(0,1); 
+  -o-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+figure.effect-bubba figcaption::after {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1,0);
+  -moz-transform: scale(1,0);
+  -o-transform: scale(1,0);
+  -ms-transform: scale(1,0);
+  transform: scale(1,0);
+}
+
+figure.effect-bubba h4 {
+  padding-top:11%;
+  -webkit-transition: transform 0.35s;
+  -moz-transition: transform 0.35s;
+  -o-transition: -o-transform 0.35s;
+  -ms-transition: -ms-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,-20px,0);
+  -moz-transform: translate3d(0,-20px,0);
+  -o-transform: translate3d(0,-20px,0);
+  -ms-transform: translate3d(0,-20px,0);
+  transform: translate3d(0,-20px,0);
+  opacity:0;
+}
+
+figure.effect-bubba p {
+  padding: 12px 2.5em;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  -moz-transition: opacity 0.35s, -moz-transform 0.35s;
+  -o-transition: opacity 0.35s, -o-transform 0.35s;
+  -ms-transition: opacity 0.35s, -ms-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0);
+  -moz-transform: translate3d(0,20px,0);
+  -o-transform: translate3d(0,20px,0);
+  -ms-transform: translate3d(0,20px,0);
+  transform: translate3d(0,20px,0);
+}
+
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.effect-bubba:hover h4,
+figure.effect-bubba:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.galeri-barca{
+  width: 30%;
+  height: 10%;
+}
